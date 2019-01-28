@@ -4,4 +4,6 @@ class Song
   def initialize(song)
     @song = song
   end
+  
+  Song.initialize("Single Ladies")
 end
